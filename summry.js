@@ -30,4 +30,8 @@ function addthreenumber(num1, num2, num3){
 addthreenumber(87, 41, 56);
 
 // object 
-var 
+var microphone = {
+    brand: 'blue yet',
+    price: 120,
+    color: 'black'
+} 
