@@ -14,8 +14,11 @@
 //     }
 // }
 
-var number = [12, 37, 55, 67, 89, 123, 100, 102, 95];
-for(var i = 0; i < number.length; i++){
-    var number = number[i];
+var numbers = [12, 37, 55, 67, 89, 87, 100, 102, 95];
+for(var i = 0; i < numbers.length; i++){
+    var number = numbers[i];
     console.log(number);
+    if (number > 90){
+        break;
+    }
 }
